@@ -1,0 +1,239 @@
+*{
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+.flex1:hover{
+    background-color: rgb(75, 75, 75);
+}
+.all{
+    display: flex;
+    flex-direction: column;
+    background-image: url(IN-en-20231009-popsignuptwoweeks-perspective_alpha_website_medium_edited.jpg);
+    background-color: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+    width: 1349px;
+    height: 800px;}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;}
+select{
+   background-color: rgb(44, 43, 43);
+   opacity: 0.7;
+   color: rgb(255, 255, 255);
+   height: 40px;
+   width: 100px;
+   font-size: large;
+   text-align: center;
+
+}
+    
+button{
+    background-color: rgb(229, 9, 20);
+    color: aliceblue;
+    border: none;
+    height: 40px;
+    width: 100px;
+    border-radius: 5%;
+}  
+.netflix{
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.homeright{
+    gap: 0px;
+    margin-right: 140px;
+    margin-top: 70px;
+}
+#content{
+display: flex;
+flex-direction: column;
+color: white;
+padding-top: 100px;
+align-items: center;
+font-size: 300%;
+font-weight: 700;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.input{
+    display: flex;
+    flex-direction: row;
+}
+.line{
+    padding-top: 0px;
+    font-size:50%;
+    font-weight: 500;
+}
+.email{
+    width: 200px;
+    height: 40px;
+    filter: opacity(100%);
+}
+.further{
+    display:flex;
+    height: 480px;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    padding-left: 150px;
+}
+.text1{
+    padding-top: 100px;
+    font-size: 350%;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.text2{
+    font-size: 200%;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.blank{
+    height: 10px;
+    background-color: rgb(39, 39, 39);
+}
+.further2{
+    display:flex;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+}
+.text3{
+    padding-top: 100px;
+    font-size: 300%;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.further3{
+    padding-top: 80px;
+    display:flex;
+    height: 480px;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    padding-left: 140px;
+    padding-right: 20px;
+}
+.text4{
+    padding-left: 330px;
+    padding-top:0px;
+    padding-bottom: 50px;
+    font-size: 300%;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.flex1{
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    width: 950px;
+    margin-left: 140px;
+    margin-right:x 40px;
+    background-color: rgb(46, 46, 46);
+    align-items: center;
+    font-size: 150%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 30px;
+    justify-content:space-between;
+    padding-right: 50px;
+    margin-bottom: 10px;
+    transition: background-color 0.5s;
+}
+.further4{
+    padding-top: 80px;
+    display:flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+}
+.last_text{
+    padding-top: 30px;
+    align-self: center;
+    font-size: 130%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+
+}
+footer{
+    color:rgb(197, 196, 196);
+}
+#foot2{
+    margin-left: 150px;
+}
+a{
+    color:rgb(197, 196, 196);
+}
+
+.foot{
+    display: inline-grid;
+    flex-direction: row;
+    margin-left: 150px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.foot1{
+    justify-content: space-around;
+    padding-top: 15px;
+}
+.drop{
+    color: white;
+    background-color: black;
+    width: 100px;
+    height: 30px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+#blw{
+    text-align: center;
+    font-size: 20px;
+}
+#form{
+    margin-bottom:50px;
+}
+#email{
+    background-color: black;
+    width: 250px;
+    height: 38px;
+    font-size: 15px;
+    border: 2px solid rgb(69, 69, 69);
+    border-radius: 5px;
+    color: white;
+}
+#submit{
+    background-color: red;
+    height: 43px;
+    width: 150px;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.foot{
+    display: inline-grid;
+    flex-direction: row;
+    margin-left: 150px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.foot1{
+    justify-content: space-around;
+    padding-top: 15px;
+}
+footer{
+    padding-top: 10px;
+    color:rgb(197, 196, 196);
+    background-color: black;
+}
+#foot2{
+    margin-left: 150px;
+}
+.drop{
+    color: white;
+    background-color: black;
+    width: 100px;
+    height: 30px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
