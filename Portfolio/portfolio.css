@@ -1,0 +1,147 @@
+*{
+margin-left: 0px;
+margin-right: 0px;
+}
+.skill1:hover{
+    background-color: red;
+    color: white;
+    font-family: cursive;
+
+}
+.tyre1:hover{
+
+background-color:black;
+color: white;
+font-family: cursive;
+    
+    }
+
+nav{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 150%;
+    justify-content: end;
+    background-color:rgb(110, 18, 18);
+    padding-right: 50px;
+    height: 100px;
+}
+
+.intro{
+    display: flex;
+    flex-direction: row;
+    background-image: url(photo-1518655048521-f130df041f66.avif);
+    background-size:cover;
+    height: 434px;
+    padding-top: 100px;
+}
+.introtext{
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+    font-size: 60px;
+}
+.text{
+    padding-top: 10px;
+    padding-left: 150px;
+    font-family: cursive;
+    font-size: 30px;
+}
+#name{
+    padding-left: 150px;
+    font-family: cursive;
+    font-size:100px;
+
+}
+.navbut{
+    border: none;
+    font-size: 110%;
+    background-color:rgb(110, 18, 18);
+    color: white;
+}
+.skills{
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    padding-left: 0px;}
+.skill1{
+    display: flex;
+    height: 300px;
+    align-items: center;
+    width: 300px;
+    flex-direction: column;
+    background-color:rgb(240, 235, 235);
+    border: solid 5px;
+    border-radius: 8%;
+    border-color: black;
+}
+h2{
+    align-self:flex-start;
+    padding-left: 50px;
+}
+.skillhead{
+    font-size: 250%;
+}
+.tyres{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: 20px;
+}
+.tyre1{
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-left: 20px;
+    display: flex;
+    height: 60px;
+    align-items: center;
+    width: 60px;
+    flex-direction: column;
+    background-color:rgb(240, 235, 235);
+    border: solid 5px;
+    border-radius: 50%;
+    border-color: black;
+}
+.tyre2{
+    margin-left: 60px;
+    display: flex;
+    height: 60px;
+    align-items: center;
+    width: 60px;
+    flex-direction: column;
+    background-color:rgb(240, 235, 235);
+    border: solid 5px;
+    border-radius: 50%;
+    border-color: black;
+}
+.train{
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+}
+.train2{
+    display: flex;
+    flex-direction: column;
+}
+.projects{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.project1{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-left: 30px;
+}
+.projecttitle{
+    text-shadow:5px 2px 5px  black;
+    display: flex;
+    flex-direction: row;
+    gap: 600px;
+    margin-left: 100px;
+    font-size: 20px;
+}
+.netflix{
+    margin-left: 200px;
+}
